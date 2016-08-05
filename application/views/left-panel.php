@@ -1,0 +1,3 @@
+<div>
+    LEFT PANEL
+</div>

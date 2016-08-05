@@ -11,9 +11,9 @@ class Update extends MY_Controller
     public function index()
     {
         $this->render([
-            'title' => 'Website Title',
+            'title' => WEBSITE_TITLE,
             'content' => [
-                '/application/views/update/index.php'
+                'update/index'
             ]
         ]);
     }

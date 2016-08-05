@@ -14,9 +14,9 @@ class Register extends MY_Controller
         }
 
         $this->render([
-            'title' => 'Website Title',
+            'title' => WEBSITE_TITLE,
             'content' => [
-                '/application/views/register/index.php'
+                'register/index'
             ],
             'js' => [
                 '/static/javascript/controllers/Registration.js'
