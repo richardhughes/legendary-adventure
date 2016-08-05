@@ -1,16 +1,22 @@
 {
-	"description": "The CodeIgniter framework",
-	"name": "codeigniter/framework",
-	"type": "project",
-	"homepage": "https://codeigniter.com",
-	"license": "MIT",
-	"require": {
-		"php": ">=5.2.4"
-	},
-	"suggest": {
-		"paragonie/random_compat": "Provides better randomness in PHP 5.x"
-	},
-	"require-dev": {
-		"mikey179/vfsStream": "1.1.*"
-	}
+  "description": "Legendary Adventure",
+  "name": "richardhughes/legendary-adventure",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Richard Hughes",
+      "email": "me@richiehughes.co.uk",
+      "homepage": "https://www.richiehughes.co.uk",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.2.4"
+  },
+  "suggest": {
+    "paragonie/random_compat": "Provides better randomness in PHP 5.x"
+  },
+  "require-dev": {
+    "mikey179/vfsStream": "1.1.*"
+  }
 }
