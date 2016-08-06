@@ -8,10 +8,13 @@
 class MY_Controller extends CI_Controller {
 
     private static $common_js = [
-        '/static/javascript/thirdparty/jquery-3.1.0.min.js'
+        '/static/javascript/thirdparty/jquery-3.1.0.min.js',
+        '/static/javascript/thirdparty/bootstrap.min.js'
     ];
     private static $common_css = [
-        '/static/css/base.css'
+        '/static/css/base.css',
+        '/static/css/bootstrap-overrides.css',
+        '/static/css/thirdparty/bootstrap.min.css'
     ];
 
     public function __construct() {

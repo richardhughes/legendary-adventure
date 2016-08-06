@@ -1,4 +1,4 @@
-<div>
+<div class="col-lg-12">
     <div>
         <form method="post" action="login/check">
             <label for="username"> Username </label> <input type="text" name="username" id="username"/>

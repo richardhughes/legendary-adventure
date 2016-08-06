@@ -1,4 +1,4 @@
-<div>
+<div class="col-lg-12">
     <p>
         <?= $message ?>
     </p>

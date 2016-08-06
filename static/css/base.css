@@ -27,66 +27,10 @@ a {
     text-align: center;
 }
 
-.container {
-    height: 100%;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    min-height: 24em;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-}
-
-input[type="submit"] {
-    color: black;
-    border-image-source: initial;
-    border-image-slice: initial;
-    border-image-width: initial;
-    border-image-outset: initial;
-    border-image-repeat: initial;
-    border-width: 1px;
-    border-style: solid;
-    border-color: grey;
-}
-
-label {
-    display: inline-block;
-    width: 100px;
-}
-
-input, label {
-    margin-bottom: 15px;
-}
-
-form, input {
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    margin-bottom: 5px;
-}
-
-form {
-    width: 300px;
-}
-
 .warning {
     color: red;
 }
+
 .hidden {
     display: none;
-}
-
-.flex-center {
-    -webkit-box-flex: 0;
-    -webkit-flex: none;
-    -ms-flex: none;
-    flex: none;
-    width: 45%;
 }
