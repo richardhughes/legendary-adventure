@@ -19,7 +19,8 @@ class MY_Controller extends CI_Controller
     ];
 
     private $excludedClasses = [
-        'login'
+        'login',
+        'register'
     ];
 
     public function __construct()
