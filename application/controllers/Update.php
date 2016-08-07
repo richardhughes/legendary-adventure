@@ -14,7 +14,8 @@ class Update extends MY_Controller
             'title' => WEBSITE_TITLE,
             'content' => [
                 'update/index'
-            ]
+            ],
+            'subTitle' => 'Updates'
         ]);
     }
 }

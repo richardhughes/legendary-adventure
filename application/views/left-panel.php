@@ -1,30 +1,30 @@
 <div class="col-md-3">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar btn-primary"></span>
-            <span class="icon-bar btn-primary"></span>
-            <span class="icon-bar btn-primary"></span>
-        </button>
-    </div>
-
     <div class="collapse navbar-collapse" id="myNavbar">
 
         <!-- User Details -->
-        <div class="panel panel-default">
-            <div class="panel-heading">User Details</div>
+        <div class="panel panel-default margin-top-10">
+            <div class="panel-heading">Statistics</div>
             <div class="panel-body">
-                Panel content
+                <p>
+                    <?= $this->session->userdata('user')->username; ?>
+                </p>
+
+
+
             </div>
         </div>
 
-
         <!-- Navigation -->
-        <ul class="nav nav-pills nav-stacked">
-            <li role="presentation" class="active"><a href="#">Home</a></li>
-            <li role="presentation"><a href="#">Profile</a></li>
-            <li role="presentation"><a href="#">Messages</a></li>
-        </ul>
-
-
+        <div class="panel panel-default margin-top-10">
+            <div class="panel-heading">Navigation</div>
+            <div class="panel-body">
+                <!-- Navigation -->
+                <ul class="nav nav-pills nav-stacked">
+                    <li role="presentation"><a href="#">Home</a></li>
+                    <li role="presentation"><a href="#">Profile</a></li>
+                    <li role="presentation"><a href="#">Messages</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
 </div>
