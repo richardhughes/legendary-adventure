@@ -5,6 +5,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Register extends MY_Controller
 {
 
+    /**
+     * Register form
+     */
     public function index()
     {
         $registered = false;

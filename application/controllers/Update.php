@@ -8,6 +8,9 @@
  */
 class Update extends MY_Controller
 {
+    /**
+     * Page to display the latest updates
+     */
     public function index()
     {
         $this->render([

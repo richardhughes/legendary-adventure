@@ -8,6 +8,12 @@
  */
 class Registration_model extends CI_Model
 {
+    /**
+     * Create a new user given the submitted form data
+     *
+     * @param $userData
+     * @return bool
+     */
     public function createUser($userData)
     {
         if (!$this->isUsernameUnique($userData['username'])) {
@@ -25,6 +31,12 @@ class Registration_model extends CI_Model
         ]);
     }
 
+    /**
+     * Check to see if the username is unique
+     *
+     * @param $username
+     * @return bool
+     */
     public function isUsernameUnique($username)
     {
         $sql = "SELECT COUNT(*) as count FROM user WHERE username = ?";

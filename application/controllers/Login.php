@@ -5,6 +5,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Login extends MY_Controller
 {
 
+    /**
+     * The homepage / login page
+     */
     public function index()
     {
         if ($this->session->userdata('user')) {
@@ -20,6 +23,9 @@ class Login extends MY_Controller
         ]);
     }
 
+    /**
+     * Page to check that the users login is valid
+     */
     public function check()
     {
         $this->load->model('authentication_model', 'authentication');
@@ -43,11 +49,14 @@ class Login extends MY_Controller
 
     }
 
+    /**
+     * Log the user out and destroy the session
+     */
     public function logout()
     {
         $this->session->unset_userdata('user');
-        session_destroy();
-        redirect('login', 'refresh');
+        $this->session->sess_destroy();
+        redirect('login');
     }
 
 }
